@@ -7,3 +7,7 @@ export const buildAd = (ad) => {
         `
     
 }
+
+export const buildNoAdsAdvice = () => {
+    return '<h3>Lo siento, no hay anuncios disponibles!</h3>'
+}

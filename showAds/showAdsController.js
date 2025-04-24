@@ -1,9 +1,19 @@
-import { ads } from './showAdsModel.js'
-import { buildAd } from './showAdsView.js';
+import {getAds} from "./showAdsModel.js"
+import { buildAd, buildNoAdsAdvice } from './showAdsView.js';
 
-export function showAdsController() {
-
+export async function showAdsController() {
     const container = document.querySelector(".ads-container")
+    const ads = await getAds();
+
+    if (ads.length > 0) {
+        showAds(ads, container)
+    } else {
+        container.innerHTML = buildNoAdsAdvice()
+    }
+    
+}
+
+function showAds(ads, container) {
     container.innerHTML = '';
 
     ads.forEach((ad) => {
