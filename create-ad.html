@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Crear anuncios</title>
+   </head>
+   <body>
+     <h1>Crear anuncio</h1>
+ 
+     <form>
+      <label for="name">Nombre del producto:</label><br />
+      <input type="text" id="name" required /><br /><br />
+
+      <label for="description">Descripción:</label><br />
+      <textarea id="description" required maxlength="300"></textarea><br /><br />
+
+      <label for="price">Precio (€):</label><br />
+      <input type="number" id="price" required /><br /><br />
+
+      <label for="type">Tipo:</label><br />
+      <select id="type" required>
+        <option value="venta">Venta</option>
+        <option value="compra">Compra</option>
+      </select><br /><br />
+
+      <label for="image">URL de la imagen (opcional):</label><br />
+      <input type="url" id="image" placeholder="https://..."><br /><br />
+
+      <button>Crear anuncio</button>
+    </form>
+ 
+     <script type="module" src="./createAd.js"></script>
+   </body>
+ </html>
