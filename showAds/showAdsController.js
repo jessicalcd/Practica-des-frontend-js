@@ -32,7 +32,8 @@ function showAds(ads, container) {
 
     ads.forEach((ad) => {
         
-        const adHtml = document.createElement("div");
+        const adHtml = document.createElement("a");
+        adHtml.setAttribute("href", `./ad-detail.html?id=${ad.id}`)
         adHtml.innerHTML = buildAd(ad)
     
         container.appendChild(adHtml)

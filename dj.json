@@ -1,0 +1,84 @@
+{
+    "users": [
+      {
+        "name": "Jessica Luz",
+        "username": "jessicaluzcd@gmail.com",
+        "password": "$2b$10$VQR5G/f17kZUQ0alTRo0GOQHY8Jf5CIaZVRY9tAtYsndi2VdCwINm",
+        "id": 1
+      },
+      {
+        "name": "Jessica ",
+        "username": "jessicaluz@gmail.com",
+        "password": "$2b$10$3VojhFgNVlvPsVo.dDsRxOjgYeDW3Ez/x9bSFmWV9gAoQUeKkoR5y",
+        "id": 2
+      },
+      {
+        "name": "Jessica ",
+        "username": "jessical@gmail.com",
+        "password": "$2b$10$3VojhFgNVlvPsVo.dDsRxOat6OpjBv4.58OoZcx1FZk8yZfmvGdHe",
+        "id": 3
+      }
+    ],
+    "ads": [
+      {
+        "content": {
+          "name": "Bicicleta de montaña",
+          "description": "Bicicleta casi nueva",
+          "price": 120,
+          "type": "venta",
+          "image": "https://th.bing.com/th/id/OIP.83nhdyg2a6wcayhFJNNVYwHaEG?w=322&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        },
+        "userId": 1,
+        "updatedAt": "2025-04-26T22:08:16.474Z",
+        "id": 1
+      },
+      {
+        "content": {
+          "name": "iPhone 12",
+          "description": "iPhone en buen estado, 128GB",
+          "price": 450,
+          "type": "venta",
+          "image": "https://th.bing.com/th/id/OIP.R-emWKMvF-jda-A0Grc0vAHaFj?w=237&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        },
+        "userId": 2,
+        "updatedAt": "2025-04-26T22:57:17.624Z",
+        "id": 3
+      },
+      {
+        "content": {
+          "name": "monitor 24''",
+          "description": "Busco un monitor FullHD, como el de la imagen, para trabajar y jugar.",
+          "price": 80,
+          "type": "compra",
+          "image": "https://th.bing.com/th/id/OIP.m8Uvs7Jb4aPHcxTMBs41wAHaE7?w=286&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        },
+        "userId": 2,
+        "updatedAt": "2025-04-26T22:59:43.956Z",
+        "id": 4
+      },
+      {
+        "content": {
+          "name": "Patinete eléctrico",
+          "description": "Patinete usado, batería en buen estado",
+          "price": 250,
+          "type": "venta",
+          "image": "https://th.bing.com/th/id/OIP.nHp7pNNPIe3zbkctZZtzGgHaHa?w=192&h=192&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        },
+        "userId": 3,
+        "updatedAt": "2025-04-26T23:01:42.426Z",
+        "id": 5
+      },
+      {
+        "content": {
+          "name": "Busco portátil Lenovo IdeaPad 3 15ALC6",
+          "description": "Necesito un portátil portátil Lenovo IdeaPad 3 15ALC6, funcional para estudiar",
+          "price": 200,
+          "type": "compra",
+          "image": "https://th.bing.com/th/id/OIP.ZJtvqCTLrBUvIeDjJ-ZUKwHaHa?w=182&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        },
+        "userId": 1,
+        "updatedAt": "2025-04-27T00:47:04.012Z",
+        "id": 6
+      }
+    ]
+  }

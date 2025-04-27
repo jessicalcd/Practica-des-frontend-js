@@ -25,6 +25,7 @@ export function loginController(loginForm) {
  
    async function handleLoginUser(userEmail, password) {
      const token = await loginUser(userEmail, password);
+     window.location = "/";
 
      localStorage.setItem("token", token)
  
